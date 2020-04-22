@@ -1,3 +1,4 @@
 rubbish/
 .vscode
-/student/
+**/student/
+.ipynb_checkpoints
