@@ -1,0 +1,5 @@
+pip
+scipy
+nltk
+jupyter
+sklearn

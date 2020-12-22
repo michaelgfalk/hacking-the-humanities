@@ -2,9 +2,9 @@
 import json
 import os
 import re
-from nltk.tokenize import wordpunct_tokenize
+from nltk.tokenize import word_tokenize
 
-def import_corpus(corpus_path = 'texts', manifest_file = 'manifest.json'):
+def import_corpus(corpus_path = 'corpus', manifest_file = 'manifest.json'):
     """
     Imports a corpus of texts and prepares them for text analysis.
 
@@ -23,13 +23,14 @@ def import_corpus(corpus_path = 'texts', manifest_file = 'manifest.json'):
     # Create list of all files other than the manifest file
     file_list = os.listdir(corpus_path)
     file_list = [file for file in file_list if file != manifest_file]
+    file_list.sort() # To ensure order is the same each time
 
     # Create useful regular expressions
     header_regex = re.compile(r'\A.+\*{3} {0,2}START OF.{,200}\*{3}', flags = re.DOTALL)
     licence_regex = re.compile(r'\*{3} {0,2}END OF.+', flags = re.DOTALL)
 
     # Instantiate novel list
-    novels = {}
+    novels = []
 
     # Loop over files, import and tokenise novels
     for file_name in file_list:
@@ -62,22 +63,17 @@ def import_corpus(corpus_path = 'texts', manifest_file = 'manifest.json'):
         novel['body'] = text
 
         # Tokenise text
-        tokens = wordpunct_tokenize(text) # apply tokeniser
-        # strip out punctuation, numbers and single-character strings other than 'a','A','i' or 'I':
-        tokens = [token for token in tokens if re.match(r'^\w{2,}$|^[aAiI0-9]$', token)]
+        tokens = word_tokenize(text)
         novel['tokens'] = tokens
 
         # Output message
         print(f'{novel["title"]}, by {novel["author"]} successfully imported.')
 
-        # Create short title
-        short = re.sub(r'\.txt','',file_name)
-
         # Add to master dict
-        novels[short] = novel
+        novels.append(novel)
 
     # Final message:
-    unique_authors = set([value["author"] for key,value in novels.items()])
+    unique_authors = set([novel["author"] for novel in novels])
     print(f'\n{len(novels)} novels imported, by {len(unique_authors)} unique authors.')
 
     return novels
