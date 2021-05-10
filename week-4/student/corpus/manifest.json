@@ -1,0 +1,90 @@
+{
+  "absentee.txt":{
+    "title":"The Absentee",
+    "author":"Maria Edgeworth"
+  },
+  "belinda.txt":{
+    "title": "Belinda",
+    "author": "Maria Edgeworth"
+  },
+  "crimson_cryptogram.txt":{
+    "title": "The Crimson Cryptogram",
+    "author": "Fergus Hume"
+  },
+  "disappearing_eye.txt":{
+    "title": "The Disappearing Eye",
+    "author": "Fergus Hume"
+  },
+  "ivanhoe.txt":{
+    "title": "Ivanhoe",
+    "author": "Sir Walter Scott"
+  },
+  "lammermoor.txt":{
+    "title": "The Bride of Lammermoor",
+    "author": "Sir Walter Scott"
+  },
+  "lost_parchment.txt":{
+    "title": "The Lost Parchment",
+    "author": "Fergus Hume"
+  },
+  "mid_lothian.txt":{
+    "title": "The Heart of Mid-Lothian",
+    "author": "Sir Walter Scott"
+  },
+  "old_mortality.txt":{
+    "title": "Old Mortality",
+    "author": "Sir Walter Scott"
+  },
+  "rackrent.txt":{
+    "title": "Castle Rackrent",
+    "author": "Maria Edgeworth"
+  },
+  "rob_roy.txt":{
+    "title": "Rob Roy",
+    "author": "Sir Walter Scott"
+  },
+  "talisman.txt":{
+    "title": "The Talisman",
+    "author": "Sir Walter Scott"
+  },
+  "waverley.txt":{
+    "title": "Waverley; or, 'tis Sixty Years Since",
+    "author": "???"
+  },
+  "lady_audley.txt":{
+    "title": "Lady Audley's Secret",
+    "author": "Mary Braddon"
+  },
+  "wyllards_weird.txt":{
+    "title": "Wyllard's Weird",
+    "author": "Mary Braddon"
+  },
+  "australian_girl.txt":{
+    "title": "An Australian Girl",
+    "author": "Catherine Martin"
+  },
+  "hungry_stones.txt":{
+    "title": "The Hungry Stones, and Other Stories",
+    "author": "Rabindranath Tagore"
+  },
+  "mashi.txt":{
+    "title": "Mashi, and Other Stories",
+    "author": "Rabindranath Tagore"
+  },
+  "scarlet_letter.txt":{
+    "title": "The Scarlet Letter",
+    "author": "Nathaniel Hawthorne"
+  },
+  "seven_gables.txt":{
+    "title": "The House of the Seven Gables",
+    "author": "Nathaniel Hawthorne"
+  },
+  "blithedale_romance.txt":{
+    "title": "The Blithdale Romance",
+    "author": "Nathaniel Hawthorne"
+  },
+  "hansom_cab.txt":{
+    "title": "The Mystery of the Hansom Cab",
+    "author": "Fergus Hume"
+  }
+}

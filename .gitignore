@@ -1,4 +1,7 @@
 rubbish/
 .vscode
-**/student/
+.sage-jupyter2
+.sage-chat
 .ipynb_checkpoints
+**/__pycache__/
+
