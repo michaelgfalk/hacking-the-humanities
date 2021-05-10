@@ -7,17 +7,17 @@ The easiest way to access these materials is using [Google Colab](colab.research
 
 Use the links below to open the student version of each Notebook in Colab. These versions have blank spaces in the 'Assignment' sections for you to write and test your own code:
 * [Welcome](https://colab.research.google.com/github/michaelgfalk/hacking-the-humanities/blob/master/welcome/student/welcome.ipynb)
-* [Week 1: First Steps in Python](https://colab.research.google.com/github/michaelgfalk/hacking-the-humanities/week-1/student/blob/master/week-1-first-steps.ipynb)
-* [Week 2: Analysing Text](https://colab.research.google.com/github/michaelgfalk/hacking-the-humanities/week-2/student/blob/master/week-2-analysing-text.ipynb)
-* [Week 3: Analysing Corpora](https://colab.research.google.com/github/michaelgfalk/hacking-the-humanities/week-3/student/blob/master/week-3-analysing-corpora.ipynb)
-* [Week 4: Authorship Attribution](https://colab.research.google.com/github/michaelgfalk/hacking-the-humanities/week-4/student/blob/master/week-4-authorship-attribution.ipynb)
+* [Week 1: First Steps in Python](https://colab.research.google.com/github/michaelgfalk/hacking-the-humanities/blob/master/week-1/student/week-1-first-steps.ipynb)
+* [Week 2: Analysing Text](https://colab.research.google.com/github/michaelgfalk/hacking-the-humanities/blob/master/week-2/student/week-2-analysing-text.ipynb)
+* [Week 3: Analysing Corpora](https://colab.research.google.com/github/michaelgfalk/hacking-the-humanities/blob/master/week-3/student/week-3-analysing-corpora.ipynb)
+* [Week 4: Authorship Attribution](https://colab.research.google.com/github/michaelgfalk/hacking-the-humanities/blob/master/week-4/student/week-4-authorship-attribution.ipynb)
 
 If you are stuck, or you are a teacher and wish to use the materials, then you can access versions with all the solutions, and also with the hidden tests visible using the below links:
-* [Welcome (with solutions)](https://colab.research.google.com/github/michaelgfalk/hacking-the-humanities/welcome/blob/master/welcome.ipynb)
-* [Week 1: First Steps in Python (with solutions)](https://colab.research.google.com/github/michaelgfalk/hacking-the-humanities/week-1/blob/master/week-1-first-steps.ipynb)
-* [Week 2: Analysing Text (with solutions)](https://colab.research.google.com/github/michaelgfalk/hacking-the-humanities/week-2/blob/master/week-2-analysing-text.ipynb)
-* [Week 3: Analysing Corpora (with solutions)](https://colab.research.google.com/github/michaelgfalk/hacking-the-humanities/week-3/blob/master/week-3-analysing-corpora.ipynb)
-* [Week 4: Authorship Attribution (with solutions)](https://colab.research.google.com/github/michaelgfalk/hacking-the-humanities/week-4/blob/master/week-4-authorship-attribution.ipynb)
+* [Welcome (with solutions)](https://colab.research.google.com/github/michaelgfalk/hacking-the-humanities/blob/master/welcome/welcome.ipynb)
+* [Week 1: First Steps in Python (with solutions)](https://colab.research.google.com/github/michaelgfalk/hacking-the-humanities/blob/master/week-1/week-1-first-steps.ipynb)
+* [Week 2: Analysing Text (with solutions)](https://colab.research.google.com/github/michaelgfalk/hacking-the-humanities/blob/master/week-2/week-2-analysing-text.ipynb)
+* [Week 3: Analysing Corpora (with solutions)](https://colab.research.google.com/github/michaelgfalk/hacking-the-humanities/blob/master/week-3/week-3-analysing-corpora.ipynb)
+* [Week 4: Authorship Attribution (with solutions)](https://colab.research.google.com/github/michaelgfalk/hacking-the-humanities/blob/master/week-4/week-4-authorship-attribution.ipynb)
 
 I use nbgrader to generate the student versions and to mark students work. If you try to replicate this workflow for your own class, you will see that I have modified the outputted 'student' versions in various ways, normally to try and make the task more straightforward for beginning coders.
 
